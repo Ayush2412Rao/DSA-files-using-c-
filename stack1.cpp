@@ -14,8 +14,8 @@ void push()
 	{
 		cout<<"\nEnter the element to enter in the stack: "<<endl;
 		cin>>val;
-		stack[top+1]=val;
 		top++;
+		stack[top]=val;
 	}
 }
 
